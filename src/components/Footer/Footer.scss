@@ -1,0 +1,59 @@
+footer {
+  margin: 100px 10vw 20px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    ul {
+      flex: 1;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      gap: 10px;
+
+      li {
+        font-size: 16px;
+        color: gray;
+
+        h6 {
+          margin: 0;
+          font-size: 18px;
+          font-weight: 500;
+          color: #555;
+        }
+      }
+    }
+  }
+
+  .sub-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .copywriter-container {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        color: #2879fe;
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+      .copywriter {
+        margin-left: 25px;
+        color: gray;
+        font-size: 12px;
+      }
+    }
+
+    .pay-methods {
+    }
+  }
+}

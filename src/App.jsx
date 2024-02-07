@@ -1,6 +1,6 @@
 import Home from "./pages/Home/Home";
-import Categorias from "./pages/Categorias/Categorias";
-import Produto from "./pages/Produto/Produto";
+import Categories from "./pages/Categories/Categories";
+import Product from "./pages/Product/Product";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import './App.scss';
@@ -32,12 +32,12 @@ const router = createBrowserRouter([
         element: <Home/>,
       },
       {
-        path: "/categorias/:id", 
-        element: <Categorias/>
+        path: "/Categorias/:id", 
+        element: <Categories/>
       },
       {
         path: "/produto/:id",
-        element: <Produto/>
+        element: <Product/>
       }
     ]
   },

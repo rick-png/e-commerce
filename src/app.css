@@ -1,3 +1,7 @@
+.app * {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .app .link {
   color: initial;
   text-decoration: none;

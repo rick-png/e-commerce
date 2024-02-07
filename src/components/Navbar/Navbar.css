@@ -41,8 +41,9 @@ nav ul .icons .cartIcon span {
   color: #f1f1f1;
   top: -10px;
   right: -10px;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav .center {
