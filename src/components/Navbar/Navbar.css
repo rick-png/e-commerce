@@ -1,8 +1,11 @@
 nav {
+  display: flex;
+  align-items: center;
   height: 80px;
 }
 
 nav .container {
+  width: 100%;
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;
